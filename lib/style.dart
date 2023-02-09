@@ -380,8 +380,8 @@ class Style {
     LineHeight? finalLineHeight = child.lineHeight != null
         ? child.lineHeight?.units == "length"
             ? LineHeight(child.lineHeight!.size! /
-                (finalFontSize == null ? 22 : finalFontSize.value) *
-                3.5)
+                (finalFontSize == null ? 14 : finalFontSize.value) *
+                1.2)
             : child.lineHeight
         : lineHeight;
 
